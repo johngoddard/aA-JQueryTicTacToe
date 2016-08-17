@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  background: #eee;
+}
+
+ul {
+  width: 165px;
+  height: 165px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.ttt{
+  margin: 0 auto;
+  width: 500px;
+}
+
+li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+  float: left;
+  list-style: none;
+}
+
+.unfilled {
+  background: #ccc;
+}
+
+.unfilled:hover {
+  background: yellow;
+}
+
+.filled{
+  background: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+}
+
+.x {
+  color: red;
+}
+
+p {
+  font-size: 30px;
+}
+
+.o {
+  color: blue;
+}
